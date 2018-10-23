@@ -1,0 +1,57 @@
+body {
+    background: purple;
+}
+
+h1{
+    font-family: "Impact";
+    font-size: 100px;
+    text-align: center;
+    color: beige;
+}
+h2{
+    font-family: "Impact";
+    font-size: 50px;
+    text-align: center;
+    color: beige;
+}
+
+#text, #horoscope, #birthday{
+    font-family: "Impact";
+    font-size: 30px;
+    text-align: center;
+    color: darkorange;
+}
+
+h3{
+    font-family: "Impact";
+    font-size: 30px;
+    color: beige;
+}
+
+#image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#button {
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+    color: chartreuse;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 7px darkred;
+}
+
+#button:hover{
+    background-color: #ff0517;
+}
+
+#button:active{
+    transform: translateY(4px);
+    box-shadow: 0 4px darkred;
+}
