@@ -1,7 +1,12 @@
 body {
     background: purple;
 }
-
+h4{
+    font-family: "Impact";
+    font-size: 20px;
+    text-align: center;
+    color: beige;
+}
 h1{
     font-family: "Impact";
     font-size: 100px;
@@ -55,3 +60,4 @@ h3{
     transform: translateY(4px);
     box-shadow: 0 4px darkred;
 }
+
